@@ -29,8 +29,7 @@
     height: 50%;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 #conteudo_inferior{
@@ -40,6 +39,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#palavra{
+    margin: auto auto;
 }
 
 #letras{
@@ -74,4 +77,33 @@ button{
     font-size: 16pt;
 
     margin: 5px;
+}
+
+#informacoes{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#vidas{
+    margin: 0 1% 0 0;
+}
+
+.esconder{
+    display: none !important;
+}
+
+#perdeu{
+    color: red;
+}
+
+#perdeu_jogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jogar_novamente{
+    width: auto;
 }
